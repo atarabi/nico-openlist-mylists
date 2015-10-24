@@ -1,0 +1,6 @@
+{
+  "mail_tel": "example@example.com",
+  "password": "*******************",
+  "interval": 3000,
+  "max_page": 20
+}
