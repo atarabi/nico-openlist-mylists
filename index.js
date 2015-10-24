@@ -94,7 +94,7 @@ function* getOpenlistMylists() {
     mylists = mylists.concat(new_mylists);
   }
 
-  yield promisify(fs.writeFile, 0, `${sm}.text`, mylists.join('\n'));
+  yield promisify(fs.writeFile, 0, `${sm}.txt`, mylists.join('\n'));
 }
 
 function main() {
